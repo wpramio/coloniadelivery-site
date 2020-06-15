@@ -1,0 +1,47 @@
+- nome: queijo
+  descricao: Queijo colonial produzido a partir do leite de vacas Jersey e Holandesa, maturado de 10 a 30 dias. Peso das peças varia entre 800g e 1300g.
+  preco: '26,90'
+  tipo: kg
+  img: queijo.jpg
+
+- nome: salame
+  descricao: 'Pedido mínimo: 2 peças. Salame colonial de porco temperado com sal, alho, cebola e uma pitada de pimenta.'
+  preco: '28,90'
+  tipo: kg
+  img: salame.jpg
+
+- nome: copa
+  descricao: Copa de lombo temperada com sal, cravo, alho e uma pitada de pimenta. Pode escolher com mais ou menos gordura.
+  preco: '46,90'
+  tipo: kg
+  img: copa.jpg
+
+- nome: torresmo
+  descricao: Torresmo colonial de toucinho, temperado com sal. Feito em tacho aquecido a base de vapor, o que torna-o crocante e melhora a qualidade final do produto.
+  preco: '15,00'
+  tipo: pacote (500g)
+  img: torresmo.jpg
+
+- nome: banha
+  descricao: Gordura suína aquecida no tacho a base de vapor, de forma a preservar o sabor e as propriedades naturais.
+  preco: '28,00'
+  tipo: Balde (3 Kg)
+  img: banha.jpg
+
+- nome: vinho
+  descricao: 'Vinho colonial produzido com uvas de parreirais da Serra Gaúcha. Qualidades das uvas: Tinto, Bordô, Branco, Rosé e Niágara.'
+  preco: '20,00'
+  tipo: garrafa (2L)
+  img: vinho.jpg
+
+- nome: chimia
+  descricao: 'Chimia colonial sem conservantes. Sabores: Figo, Mamão, Goiaba, Uva, Abóbora e Abóbora com Coco.'
+  preco: '17,00'
+  tipo: pote (900g)
+  img: chimia.jpg
+
+- nome: mel
+  descricao: Mel de abelha com prevalência de flores de eucalipto, acácia negra e laranjeiras.
+  preco: '20,00'
+  tipo: pote (1,300mL)
+  img: mel.jpg

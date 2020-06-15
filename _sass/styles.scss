@@ -1,0 +1,319 @@
+
+$logo-azul-escuro: #18a5df;
+$logo-amarelo-queijo: #fde74c;
+$logo-laranja-escuro: #ed2c24;
+$logo-vermelho-escuro: #7c2214;
+$logo-cor-texto: #40160a;
+$logo-cor-rolha: #ffcd99;
+$logo-cor-tabua: #f9a556;
+
+$body-fundo: #fff;
+
+$header-fundo: #ff8800;
+$header-borda: #40160a;
+
+$contatos-titulo-fontsize: 2.5rem;
+$contatos-fontsize: 2rem;
+
+$cardapio-fundo: #fff;
+$cardapio-titulo-bgcolor: #7c2214;
+$produto-titulo-fontcolor: #7c2214;
+
+$footer-info-titulo-fontsize: 1.5rem;
+
+$footer-fundo: #7c2214;
+$footer-fontcolor: #fff;
+$footer-titulo-fontsize: 2.2rem;
+$footer-descricao-fontsize: 1.3rem;
+$footer-copyrights-fontsize: 0.95rem;
+
+
+html {
+  box-sizing: border-box;
+  font-size: 85%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  line-height: 1.1;
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: $body-fundo;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.container-conteudo {
+  flex-grow: 1;
+}
+
+header {
+  position: relative;
+  margin-bottom: 40px;
+  background-color: $header-fundo;
+  border-bottom: 5px solid $header-borda;
+  background-image: url("/images/wood_background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header-bg-mask, .footer-bg-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.3;
+  height: 100%;
+  width: 100%;
+}
+
+.footer-bg-mask {
+  opacity: 0.5;
+}
+
+.header-conteudo {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.header-logo {
+  max-width: 70vw;
+  max-height: 50vh;
+}
+
+.header-contatos {
+  font-size: $contatos-fontsize;
+  background-color: rgba(0,0,0,.7);
+  box-sizing: border-box;
+  padding: 30px;
+  width: 100%;
+
+  .contatos-titulo {
+    font-size: $contatos-titulo-fontsize;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .contato:not(:last-child) {
+    margin-bottom: 25px;
+  }
+
+  .link-contato {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icone-contato {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+}
+
+.cardapio-wrapper {
+  background-color: $cardapio-fundo;
+}
+
+.cardapio-titulo {
+  font-size: 50px;
+  background-color: $cardapio-titulo-bgcolor ;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+  margin-bottom: 40px;
+}
+
+.lista-produtos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.lista-produtos-item {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 70px;
+  width: 80vw;
+  border-bottom: 2px solid;
+  padding-bottom: 5px;
+}
+
+.produto-img {
+  width: 80vw;
+}
+
+.produto-img-expandir {
+  display: block;
+  text-align: right;
+  margin-top: -3px;
+  font-size: 12px;
+  color: #000;
+}
+
+.produto-titulo {
+  font-size: 40px;
+  color: $produto-titulo-fontcolor;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.produto-descricao {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.produto-preco {
+  font-size: 26px;
+  line-break: strict;
+}
+
+.footer-slogan {
+  margin-top: 30px;
+}
+
+.formas-pagamento {
+  margin: 30px 0;
+}
+
+.entregas {
+  margin-bottom: 30px;
+}
+
+.footer-info-titulo {
+  font-size: $footer-info-titulo-fontsize;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+footer {
+  position: relative;
+  margin-top: 20px;
+  color: $footer-fontcolor;
+  background-color: $footer-fundo;
+  background-image: url("/images/wood_background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  padding: 0 15px;
+}
+
+.footer-conteudo {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 170px;
+}
+
+.footer-titulo {
+  font-size: $footer-titulo-fontsize;
+}
+
+.footer-descricao {
+  font-size: $footer-descricao-fontsize;
+  margin-bottom: 15px;
+}
+
+.copyrights {
+  font-size: $footer-copyrights-fontsize;
+  margin-bottom: 30px;
+  text-align: center;
+  a {
+    color: white;
+  }
+}
+
+
+// Desktops
+@media(min-width: 900px) {
+  html {
+    font-size: 100%;
+  }
+
+  .container-conteudo {
+    margin: 0 100px;
+  }
+
+  .header-conteudo {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .header-contatos {
+    width: auto;
+    .link-contato {
+      justify-content: start;
+    }
+  }
+
+  .cardapio-titulo {
+    padding: 5px 15px;
+    width: auto;
+  }
+
+  .lista-produtos {
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  .lista-produtos::after {
+    content: "";
+    width: 30%;
+  }
+
+  .lista-produtos-item {
+    margin-bottom: 30px;
+    width: 30%;
+    min-height: 580px;
+  }
+
+  .produto-img {
+    width: 100%;
+    height: 380px;
+  }
+
+  .produto-descricao {
+    margin-bottom: 0;
+  }
+
+  .footer-slogan {
+    margin: 30px 0;
+  }
+  
+  .formas-pagamento, .entregas {
+    margin: 30px 0;
+  }
+
+
+  .footer-conteudo {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 170px;
+  }
+
+  .footer-descricao {
+    margin-bottom: 0;
+  }
+  .copyrights {
+    width: 100%;
+  }
+
+}

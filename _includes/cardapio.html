@@ -1,0 +1,18 @@
+<section class="cardapio-wrapper">
+  <h2 class="cardapio-titulo">Produtos</h2>
+  <ul class="lista-produtos">
+    {% for produto in site.data.cardapio %}
+      <li class="lista-produtos-item">
+        <a href="images/produtos/{{ produto.nome }}_g.jpg" target="_blank">
+          <img class="produto-img" src="images/produtos/{{ produto.img }}" alt="{{ produto.nome }}" >
+          <span class="produto-img-expandir">Clique para expandir.</span>
+        </a>
+        <ul class="produto-detalhes">
+          <li><h2 class="produto-titulo">{{ produto.nome | capitalize}}</h2></li>
+          <li><p class="produto-descricao">{{ produto.descricao}}</p></li>
+          <li><h3 class="produto-preco">R$ {{ produto.preco | number }} / {{ produto.tipo }}</h3></li>
+        </ul>
+      </li>
+      {% endfor %}
+  </ul>
+</section>

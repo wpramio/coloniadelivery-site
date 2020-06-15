@@ -1,0 +1,23 @@
+<header>
+  <div class="header-bg-mask"></div>
+  <div class="header-conteudo">
+    <h1 class="header-logo-wrapper">
+      <img class="header-logo" src="{{ 'images/logo.png' | relative_url }}" alt="Colônia Delivery">
+    </h1>
+    <div class="header-contatos">
+      <h3 class="contatos-titulo">Faça seu pedido:</h3>
+      <ul>
+        <li class="contato contato-whatsapp">
+          <a class="link-contato" href="{{ site.whatsapp_link }}" target="_blank">
+            <img class="icone-contato" src="images/contato/whatsapp-logo.svg">{{ site.whatsapp }}
+          </a>
+        </li>
+        <li class="contato contato-instagram">
+          <a class="link-contato" href="{{ site.instagram_link }}" target="_blank">
+            <img class="icone-contato" src="images/contato/instagram-logo.svg">{{ site.instagram }}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
