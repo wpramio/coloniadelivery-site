@@ -45,3 +45,9 @@
   preco: '20,00'
   tipo: pote (1 Kg)
   img: mel.jpg
+
+- nome: conservas
+  descricao: Pepino, pimentão, cenoura, brócolis, couve flor e beterraba. São utilizados somente conservantes naturais (sal e vinagre).
+  preco: '10,00'
+  tipo: pote (350g)
+  img: conservas.jpg
