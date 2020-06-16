@@ -41,7 +41,7 @@
   img: chimia.jpg
 
 - nome: mel
-  descricao: Mel de abelha com prevalência de flores de eucalipto, acácia negra e laranjeiras.
+  descricao: Mel puro de abelha com prevalência de flores de eucalipto, acácia negra e laranjeiras.
   preco: '20,00'
   tipo: pote (1 Kg)
   img: mel.jpg
@@ -49,5 +49,5 @@
 - nome: conservas
   descricao: Pepino, pimentão, cenoura, brócolis, couve flor e beterraba. São utilizados somente conservantes naturais (sal e vinagre).
   preco: '10,00'
-  tipo: pote (350g)
+  tipo: pote (550g)
   img: conservas.jpg
