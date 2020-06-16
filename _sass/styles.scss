@@ -12,8 +12,14 @@ $body-fundo: #fff;
 $header-fundo: #ff8800;
 $header-borda: #40160a;
 
+$botao-cta-verde-bgcolor: green;
+$botao-cta-verde-bgcolor-hover: rgb(0,140,0);
+$botao-cta-verde-textcolor: #fff;
+$botao-cta-fontsize: 1.1rem;
+$botao-cta-desktop-fontsize: 1.8rem;
+
 $contatos-titulo-fontsize: 2.5rem;
-$contatos-fontsize: 2rem;
+$contatos-fontsize: 1.4rem;
 
 $cardapio-fundo: #fff;
 $cardapio-titulo-bgcolor: #7c2214;
@@ -43,6 +49,10 @@ body {
   background-color: $body-fundo;
   box-sizing: border-box;
   min-height: 100vh;
+}
+
+.hide {
+  display: none;
 }
 
 .container-conteudo {
@@ -88,36 +98,61 @@ header {
   max-height: 50vh;
 }
 
-.header-contatos {
-  font-size: $contatos-fontsize;
-  background-color: rgba(0,0,0,.7);
-  box-sizing: border-box;
-  padding: 30px;
-  width: 100%;
-
-  .contatos-titulo {
-    font-size: $contatos-titulo-fontsize;
-    font-weight: bold;
-    margin-bottom: 30px;
-    text-align: center;
+.header-botao-pedido {
+  margin-bottom: 50px;
+  .botao-pedido-link {
+    font-size: 1.2rem;
+    padding: 18px;
   }
+}
 
-  .contato:not(:last-child) {
-    margin-bottom: 25px;
-  }
+.fixo-inferior-direita {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0 15px 15px 0;
+}
 
-  .link-contato {
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.fixo-inferior-esquerda {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 0 0 15px 15px;
+}
 
-  .icone-contato {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-  }
+.botao-cta-verde {
+  background-color: $botao-cta-verde-bgcolor;
+  color: $botao-cta-verde-textcolor;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+  transition: background-color .3s ease-out;
+}
+
+.botao-cta-verde:hover {
+  background-color: $botao-cta-verde-bgcolor-hover;
+}
+
+.botao-pedido {
+  padding: 14px 20px;
+}
+
+.botao-pedido-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.botao-pedido-link {
+  display: flex;
+  align-items: center;
+  padding: 12px 18px;
+  color: $botao-cta-verde-textcolor;
+  font-size: $botao-cta-fontsize;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .cardapio-wrapper {
@@ -154,6 +189,10 @@ header {
   width: 80vw;
 }
 
+.produto-img-g-link {
+  color: #000;
+}
+
 .produto-img-expandir {
   display: block;
   text-align: right;
@@ -181,6 +220,24 @@ header {
 
 .footer-slogan {
   margin-top: 30px;
+}
+
+.footer-contatos {
+  font-size: $contatos-fontsize;
+  box-sizing: border-box;
+
+  .link-contato {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icone-contato {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
 }
 
 .formas-pagamento {
@@ -247,6 +304,10 @@ footer {
     font-size: 100%;
   }
 
+  .mobile {
+    display: none;
+  }
+
   .container-conteudo {
     margin: 0 100px;
   }
@@ -260,6 +321,17 @@ footer {
     width: auto;
     .link-contato {
       justify-content: start;
+    }
+  }
+
+  .header-botao-pedido {
+    .botao-pedido-link {
+      font-size: $botao-cta-desktop-fontsize;
+      padding: 18px 40px;
+    }
+    .botao-pedido-img {
+      width: 50px;
+      height: 50px;
     }
   }
 
@@ -309,9 +381,6 @@ footer {
     min-height: 170px;
   }
 
-  .footer-descricao {
-    margin-bottom: 0;
-  }
   .copyrights {
     width: 100%;
   }

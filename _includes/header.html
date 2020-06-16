@@ -4,20 +4,11 @@
     <h1 class="header-logo-wrapper">
       <img class="header-logo" src="{{ 'images/logo.png' | relative_url }}" alt="Colônia Delivery">
     </h1>
-    <div class="header-contatos">
-      <h3 class="contatos-titulo">Faça seu pedido:</h3>
-      <ul>
-        <li class="contato contato-whatsapp">
-          <a class="link-contato" href="{{ site.whatsapp_link }}" target="_blank">
-            <img class="icone-contato" src="images/contato/whatsapp-logo.svg">{{ site.whatsapp }}
-          </a>
-        </li>
-        <li class="contato contato-instagram">
-          <a class="link-contato" href="{{ site.instagram_link }}" target="_blank">
-            <img class="icone-contato" src="images/contato/instagram-logo.svg">{{ site.instagram }}
-          </a>
-        </li>
-      </ul>
+    <div class="header-botao-pedido botao-wrapper botao-cta-verde">
+      <a class="botao-pedido-link" href="{{ site.whatsapp_link_cta }}" target="_blank">
+        <img class="botao-pedido-img" src="images/contato/whatsapp-logo.svg">
+        <span class="botao-pedido-texto">Faça seu pedido aqui!</span>
+      </a>
     </div>
   </div>
 </header>

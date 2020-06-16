@@ -30,6 +30,7 @@ instagram: '@coloniadelivery'
 instagram_link: 'https://www.instagram.com/coloniadelivery'
 whatsapp: '(51) 920009820'
 whatsapp_link: 'https://api.whatsapp.com/send?phone=5551920009820'
+whatsapp_link_cta: 'https://api.whatsapp.com/send?phone=5551920009820&text=J%C3%A1%20olhei%20o%20cat%C3%A1logo%20e%20gostaria%20de%20fazer%20meu%20pedido%20%F0%9F%98%8A'
 
 # Formas de pagamento
 
