@@ -29,7 +29,7 @@
   img: banha.jpg
 
 - nome: vinho
-  descricao: 'Vinho colonial produzido com uvas de parreirais da Serra Gaúcha. Qualidades das uvas: Tinto, Bordô, Branco, Rosé e Niágara.'
+  descricao: 'Vinho colonial produzido com uvas de parreirais da Serra Gaúcha. Opções: Tinto (uva Bordô), Branco (uva Niagara) e Rosé (uva Niagara).'
   preco: '20,00'
   tipo: garrafa (2L)
   img: vinho.jpg
@@ -43,5 +43,5 @@
 - nome: mel
   descricao: Mel de abelha com prevalência de flores de eucalipto, acácia negra e laranjeiras.
   preco: '20,00'
-  tipo: pote (1,300mL)
+  tipo: pote (1 Kg)
   img: mel.jpg
