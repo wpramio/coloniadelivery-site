@@ -42,14 +42,14 @@
 
 - nome: melado
   descricao: Melado batido produzido totalmente de forma colonial, sem adição de conservantes. Verifique a disponibilidade do melado fino.
-  preco: '8,00'
+  preco: '12,00'
   tipo: pote (500g)
   img: melado.jpg
 
 - nome: açúcar mascavo 
   descricao: Açúcar mascavo 100% colonial, sem adição de conservantes.
   preco: '8,00'
-  tipo: pote (500g)
+  tipo: pacote (500g)
   img: açucar mascavo.jpg
 
 - nome: cera de abelha
