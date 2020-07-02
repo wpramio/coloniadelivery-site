@@ -1,6 +1,6 @@
 - nome: queijo
   descricao: Queijo colonial produzido a partir do leite de vacas Jersey e Holandesa, maturado de 10 a 30 dias. Peso das peças varia entre 800g e 1300g.
-  preco: '26,90'
+  preco: '27,90'
   tipo: kg
   img: queijo.jpg
 
@@ -24,7 +24,7 @@
 
 - nome: banha
   descricao: Gordura suína aquecida no tacho a base de vapor, de forma a preservar o sabor e as propriedades naturais.
-  preco: '28,00'
+  preco: '29,00'
   tipo: Balde (3 Kg)
   img: banha.jpg
 
@@ -60,7 +60,7 @@
 
 - nome: conservas
   descricao: Pepino, pimentão, cenoura, brócolis, couve flor e beterraba. São utilizados somente conservantes naturais (sal e vinagre).
-  preco: '10,00'
+  preco: '9,00'
   tipo: pote (550g)
   img: conservas.jpg
 
@@ -72,6 +72,6 @@
 
 - nome: cachaça de alambique
   descricao: "Cachaça colonial de alambique. Opções: transparente e a mais amarelada tradicional."
-  preco: '26,00'
+  preco: '30,00'
   tipo: garrafa (2L)
   img: cachaça de alambique.jpg
