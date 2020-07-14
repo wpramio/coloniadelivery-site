@@ -24,7 +24,7 @@
 
 - nome: banha
   descricao: Gordura suína aquecida no tacho a base de vapor, de forma a preservar o sabor e as propriedades naturais.
-  preco: '29,00'
+  preco: '29,90'
   tipo: Balde (3 Kg)
   img: banha.jpg
 
@@ -46,17 +46,29 @@
   tipo: pote (600g)
   img: melado.jpg
 
+- nome: pão de milho
+  descricao: Pão caseiro de milho de verdade, imagina comer com aquele melado ou salame com queijo... Produto disponível apenas para as cidades da região metropolitana.
+  preco: '9,00'
+  tipo: unidade (600g)
+  img: pao_milho.jpg
+
+- nome: bolacha colonial
+  descricao: Bolacha colonial feito totalmente de forma caseira, macia por dentro e crocante por fora! Muito gostosa! Produto disponível apenas para as cidades da região metropolitana.
+  preco: '9,00'
+  tipo: pacote (400g)
+  img: bolacha.jpg
+
 - nome: açúcar mascavo 
   descricao: Açúcar mascavo 100% colonial, sem adição de conservantes.
   preco: '14,00'
   tipo: pacote (1 Kg)
-  img: açucar mascavo.jpg
+  img: açucar_mascavo.jpg
 
-- nome: cera de abelha
-  descricao: Cera pura de Abelha Colonial.
-  preco: '58,50'
-  tipo: 1 Kg
-  img: cera de abelha.jpg
+- nome: vinagre tinto
+  descricao: Vinagre feito de forma totalmente artesanal, sem conservantes. Dá outro sabor ao tempero das saladas no dia-a-dia.
+  preco: '15,00'
+  tipo: garrafa (2L)
+  img: vinagre_tinto.jpg
 
 - nome: conservas
   descricao: Pepino, pimentão, cenoura, brócolis, couve flor e beterraba. São utilizados somente conservantes naturais (sal e vinagre).
@@ -75,3 +87,9 @@
   preco: '30,00'
   tipo: garrafa (2L)
   img: cachaça de alambique.jpg
+
+- nome: cera de abelha
+  descricao: Cera pura de Abelha Colonial.
+  preco: '58,50'
+  tipo: 1 Kg
+  img: cera de abelha.jpg
