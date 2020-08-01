@@ -46,17 +46,17 @@
   tipo: pote (600g)
   img: melado.jpg
 
-- nome: pão de milho
-  descricao: Pão caseiro de milho de verdade, imagina comer com aquele melado ou salame com queijo... Produto disponível apenas para as cidades da região metropolitana.
-  preco: '9,00'
-  tipo: unidade (600g)
-  img: pao_milho.jpg
+# - nome: pão de milho
+#   descricao: Pão caseiro de milho de verdade, imagina comer com aquele melado ou salame com queijo... Produto disponível apenas para as cidades da região metropolitana.
+#   preco: '9,00'
+#   tipo: unidade (600g)
+#   img: pao_milho.jpg
 
-- nome: bolacha colonial
-  descricao: Bolacha colonial feito totalmente de forma caseira, macia por dentro e crocante por fora! Muito gostosa! Produto disponível apenas para as cidades da região metropolitana.
-  preco: '9,00'
-  tipo: pacote (400g)
-  img: bolacha.jpg
+# - nome: bolacha colonial
+#   descricao: Bolacha colonial feito totalmente de forma caseira, macia por dentro e crocante por fora! Muito gostosa! Produto disponível apenas para as cidades da região metropolitana.
+#   preco: '9,00'
+#   tipo: pacote (400g)
+#   img: bolacha.jpg
 
 - nome: açúcar mascavo 
   descricao: Açúcar mascavo 100% colonial, sem adição de conservantes.
