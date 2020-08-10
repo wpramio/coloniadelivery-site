@@ -1,12 +1,12 @@
 - nome: queijo
   descricao: Queijo colonial produzido a partir do leite de vacas Jersey e Holandesa, maturado de 10 a 30 dias. Peso das peças varia entre 800g e 1300g.
-  preco: '27,90'
+  preco: '29,90'
   tipo: kg
   img: queijo.jpg
 
 - nome: salame
   descricao: 'Pedido mínimo: 2 peças. Salame colonial de porco temperado com sal, alho, cebola e uma pitada de pimenta.'
-  preco: '28,90'
+  preco: '29,90'
   tipo: kg
   img: salame.jpg
 
