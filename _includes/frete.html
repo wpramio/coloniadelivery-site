@@ -1,0 +1,20 @@
+<section class="frete {{ include.opt_class }}">
+  {% if include.section_title %}
+    <h2 class="titulo-section fundo-vermelho-escuro">Frete</h2>
+  {% endif %}
+  <div class="frete-conteudo">
+    <table class="frete-table">
+      <tr class="frete-table-header">
+        <th>Cidade</th>
+        <th>Frete</th>
+      </tr>
+      {% for frete in site.data.frete %}
+        <tr class="frete-table-tr">
+          <td class="frete-table-regiao">{{ frete.cidade }}</td>
+          <td class="frete-table-valor">R$ {{ frete.valor }}</td>
+        </tr>
+      {% endfor %}
+    </table>
+    <p class="frete-outras-cidades">Demais cidades, favor consultar o valor do frete.</p>
+  </div>
+</section>

@@ -1,0 +1,19 @@
+- cidade: Encantado
+  valor: "5,00"
+  prazo: 15 dias
+  
+- cidade: Lajeado
+  valor: "8,00"
+  prazo: 15 dias
+
+- cidade: Campo Bom
+  valor: "5,00"
+  prazo: 15 dias
+
+- cidade: Novo Hamburgo
+  valor: "5,00"
+  prazo: 15 dias
+
+- cidade: São Leopoldo
+  valor: "10,00"
+  prazo: 15 dias
