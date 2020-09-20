@@ -6,7 +6,7 @@
 
 - nome: salame
   descricao: 'Pedido mínimo: 2 peças. Salame colonial de porco temperado com sal, alho, cebola e uma pitada de pimenta.'
-  preco: '29,90'
+  preco: '31,00'
   tipo: kg
   img: salame.jpg
 
@@ -36,7 +36,7 @@
 
 - nome: mel
   descricao: Mel puro de abelha com prevalência de flores de eucalipto, acácia negra e laranjeiras.
-  preco: '20,00'
+  preco: '21,00'
   tipo: pote (1 Kg)
   img: mel.jpg
 
