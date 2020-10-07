@@ -2,17 +2,27 @@
   <h2 class="titulo-section fundo-vermelho-escuro">Produtos</h2>
   <ul class="lista-produtos">
     {% for produto in site.data.cardapio %}
-      <li class="lista-produtos-item">
+      <li class="lista-produtos-item" id="{{ produto.nome | replace: ' ', '_' }}">
         <a class="produto-img-g-link" href="images/produtos/{{ produto.img | remove: '.jpg' }}_g.jpg" target="_blank">
           <img class="produto-img" src="images/produtos/{{ produto.img }}" alt="{{ produto.nome }}" >
           <span class="produto-img-expandir">Clique para expandir.</span>
+          {% if produto.promocao %}
+            <div class="patch-promocao">
+              <span class="patch-promocao-desconto">{{ produto.desconto }}<br>OFF</span>
+            </div>
+          {% endif %}
         </a>
         <ul class="produto-detalhes">
           <li><h2 class="produto-titulo">{{ produto.nome | capitalize}}</h2></li>
           <li><p class="produto-descricao">{{ produto.descricao}}</p></li>
-          <li><h3 class="produto-preco">R$ {{ produto.preco | number }} / {{ produto.tipo }}</h3></li>
+          {% if produto.promocao %}
+            <li><h3 class="produto-preco preco-antigo">R$ {{ produto.preco | number }} / {{ produto.tipo }}</h3></li>
+            <li><h3 class="produto-preco preco-promocional">R$ {{ produto.preco_promocional | number }} / {{ produto.tipo }}</h3></li>
+          {% else %}
+            <li><h3 class="produto-preco">R$ {{ produto.preco | number }} / {{ produto.tipo }}</h3></li>
+          {% endif %}
         </ul>
       </li>
-      {% endfor %}
+    {% endfor %}
   </ul>
 </section>

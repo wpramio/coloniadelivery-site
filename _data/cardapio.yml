@@ -42,9 +42,12 @@
 
 - nome: melado
   descricao: Melado batido produzido totalmente de forma colonial, sem adição de conservantes. Verifique a disponibilidade do melado fino.
-  preco: '12,00'
+  preco: '15,00'
   tipo: pote (600g)
   img: melado.jpg
+  promocao: true
+  preco_promocional: '10,00'
+  desconto: '33%'
 
 # - nome: pão de milho
 #   descricao: Pão caseiro de milho de verdade, imagina comer com aquele melado ou salame com queijo... Produto disponível apenas para as cidades da região metropolitana.
