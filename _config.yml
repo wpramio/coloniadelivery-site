@@ -20,7 +20,9 @@
 
 title: Colônia Delivery
 description: >- # this means to ignore newlines until "baseurl:"
-  Colônia Delivery. Produtos coloniais entregues direto na sua casa.
+  👨‍🌾 Levando o melhor da colônia até você!
+  🛵 💨 Vale dos Sinos e do Taquari.
+  💳 Cartão de Crédito e Débito.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.coloniadelivery.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 
