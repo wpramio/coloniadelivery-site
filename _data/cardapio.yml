@@ -6,7 +6,7 @@
 
 - nome: salame
   descricao: 'Pedido mínimo: 2 peças. Salame colonial de porco temperado com sal, alho, cebola e uma pitada de pimenta.'
-  preco: '31,99'
+  preco: '34,99'
   tipo: kg
   img: salame.jpg
 
@@ -18,31 +18,31 @@
 
 - nome: torresmo
   descricao: Torresmo colonial de toucinho, temperado com sal. Feito em tacho aquecido a base de vapor, o que torna-o crocante e melhora a qualidade final do produto.
-  preco: '17,00'
+  preco: '16,99'
   tipo: pacote (300g)
   img: torresmo.jpg
 
 - nome: banha
   descricao: Gordura suína aquecida no tacho a base de vapor, de forma a preservar o sabor e as propriedades naturais.
-  preco: '39,90'
+  preco: '41,99'
   tipo: Balde (3 Kg)
   img: banha.jpg
 
 - nome: chimia
   descricao: 'Chimia colonial sem conservantes. Sabores: Figo, Mamão, Goiaba, Uva, Abóbora e Abóbora com Coco.'
-  preco: '17,00'
+  preco: '16,99'
   tipo: pote (900g)
   img: chimia.jpg
 
 - nome: mel
   descricao: Mel puro de abelha com prevalência de flores de eucalipto, acácia negra e laranjeiras.
-  preco: '21,00'
+  preco: '20,99'
   tipo: pote (1 Kg)
   img: mel.jpg
 
 - nome: melado
   descricao: Melado batido produzido totalmente de forma colonial, sem adição de conservantes. Verifique a disponibilidade do melado fino.
-  preco: '15,00'
+  preco: '14,99'
   tipo: pote (600g)
   img: melado.jpg
   promocao: true
@@ -63,36 +63,36 @@
 
 - nome: açúcar mascavo 
   descricao: Açúcar mascavo 100% colonial, sem adição de conservantes.
-  preco: '16,00'
+  preco: '15,99'
   tipo: pacote (1 Kg)
   img: açucar_mascavo.jpg
 
 - nome: vinagre tinto
   descricao: Vinagre feito de forma totalmente artesanal, sem conservantes. Dá outro sabor ao tempero das saladas no dia-a-dia.
-  preco: '15,00'
+  preco: '14,99'
   tipo: garrafa (2L)
   img: vinagre_tinto.jpg
 
 - nome: conservas
   descricao: Pepino, pimentão, cenoura, brócolis, couve flor e beterraba. São utilizados somente conservantes naturais (sal e vinagre).
-  preco: '9,00'
+  preco: '8,99'
   tipo: pote (550g)
   img: conservas.jpg
 
 - nome: vinho
   descricao: 'Vinho colonial produzido com uvas de parreirais da Serra Gaúcha. Opções: Tinto (uva Bordô), Branco (uva Niagara) e Rosé (uva Niagara).'
-  preco: '20,00'
+  preco: '19,99'
   tipo: garrafa (2L)
   img: vinho.jpg
 
 - nome: cachaça de alambique
   descricao: "Cachaça colonial de alambique. Opções: transparente e a mais amarelada tradicional."
-  preco: '30,00'
+  preco: '29,99'
   tipo: garrafa (2L)
   img: cachaça de alambique.jpg
 
 - nome: cera de abelha
   descricao: Cera pura de Abelha Colonial.
-  preco: '58,50'
+  preco: '58,99'
   tipo: 1 Kg
   img: cera de abelha.jpg
