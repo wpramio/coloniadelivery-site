@@ -42,10 +42,10 @@
 
 - nome: melado
   descricao: Melado batido produzido totalmente de forma colonial, sem adição de conservantes. Verifique a disponibilidade do melado fino.
-  preco: '14,99'
+  preco: '12,00'
   tipo: pote (600g)
   img: melado.jpg
-  promocao: true
+  promocao: false
   preco_promocional: '10,00'
   desconto: '33%'
 
