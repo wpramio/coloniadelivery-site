@@ -1,24 +1,24 @@
 - nome: queijo tradicional
   descricao: 'Queijo colonial produzido a partir do leite de vacas Jersey e Holandesa, maturado de 10 a 30 dias. Peso das peças: 800g'
-  preco: '31,99'
+  preco: '37,99'
   tipo: kg
   img: queijo.jpg
 
 - nome: queijo temperado
   descricao: 'Com um sabor suave e gostoso, este produto tem conquistado todos! Para quem gosta de temperos, vale a pena experimentar. As peças tem em torno de 500g. Sabores: Ervas Finas, Orégano, Pimenta Calabresa e Alho. '
-  preco: '38,99'
+  preco: '44,99'
   tipo: kg
   img: queijo_temperado.jpg
 
 - nome: salame
   descricao: 'Pedido mínimo: 2 peças. Salame colonial de porco temperado com sal, alho, cebola e uma pitada de pimenta.'
-  preco: '34,99'
+  preco: '42,99'
   tipo: kg
   img: salame.jpg
 
 - nome: copa
   descricao: Copa de lombo temperada com sal, cravo, alho e uma pitada de pimenta. Pode escolher com mais ou menos gordura.
-  preco: '47,99'
+  preco: '54,99'
   tipo: kg
   img: copa.jpg
 
@@ -48,7 +48,7 @@
 
 - nome: melado
   descricao: Melado batido produzido totalmente de forma colonial, sem adição de conservantes. Verifique a disponibilidade do melado fino.
-  preco: '12,00'
+  preco: '11,99'
   tipo: pote (600g)
   img: melado.jpg
   promocao: false
@@ -97,8 +97,8 @@
   tipo: garrafa (2L)
   img: cachaça de alambique.jpg
 
-- nome: cera de abelha
-  descricao: Cera pura de Abelha Colonial.
-  preco: '58,99'
-  tipo: 1 Kg
-  img: cera de abelha.jpg
+# - nome: cera de abelha
+#   descricao: Cera pura de Abelha Colonial.
+#   preco: '58,99'
+#   tipo: 1 Kg
+#   img: cera de abelha.jpg
