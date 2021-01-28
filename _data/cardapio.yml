@@ -5,7 +5,7 @@
   img: queijo.jpg
 
 - nome: queijo temperado
-  descricao: 'Com um sabor suave e gostoso, este produto tem conquistado todos! Para quem gosta de temperos, vale a pena experimentar. As peças tem em torno de 500g. Sabores: Ervas Finas, Orégano, Pimenta Calabresa e Alho. '
+  descricao: 'Com um sabor suave e gostoso, este produto tem conquistado todos! Para quem gosta de temperos, vale a pena experimentar. As peças tem em torno de 500g. Sabores: Ervas Finas, Orégano, Pimenta Calabresa e Alho.'
   preco: '44,99'
   tipo: kg
   img: queijo_temperado.jpg
@@ -15,6 +15,12 @@
   preco: '42,99'
   tipo: kg
   img: salame.jpg
+
+- nome: queijo coalho
+  descricao: 'Queijo Coalho Colonial? Sim, uma delícia! Agora imagina tostadinho na brasa com orégano!! Ahh, se torna irresistível! Peças de aproximadamente 2kg. Se achar muito grande pode dividir com um amigo... Fica a dica 😋'
+  preco: '37,99'
+  tipo: kg
+  img: queijo_coalho.jpg
 
 - nome: copa
   descricao: Copa de lombo temperada com sal, cravo, alho e uma pitada de pimenta. Pode escolher com mais ou menos gordura.
